@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "username": "admin",
+      "passwordHash": "$2a$10$Ednsdhjl6w2D3EzGi7YIg.IdXri7SM0xPmkmJCyqfwYnluno/vnb.",
+      "role": "admin",
+      "name": "المسؤول"
+    },
+    {
+      "id": "user",
+      "username": "user",
+      "passwordHash": "$2a$10$P2gogRomvadIHJtf.x1V6u5N14BZqwBlC7lVHwhW5iihpyaXW..QS",
+      "role": "user",
+      "name": "المسعف"
+    }
+  ],
+  "settings": {
+    "stationName": "جردة المعدات الطبية",
+    "adminEmail": "farhathamza633@gmail.com",
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "secure": false,
+      "user": "farhathamza997@gmail.com",
+      "pass": "waaw nnpq eerm cvkq",
+      "from": ""
+    }
+  },
+  "items": [
+    {
+      "id": "gauze",
+      "nameAr": "شاش",
+      "nameEn": "Gauze",
+      "noteAr": "ع 40",
+      "type": "qty",
+      "required": 40
+    },
+    {
+      "id": "bandage",
+      "nameAr": "Bondage",
+      "nameEn": "Bandage",
+      "noteAr": "S/M/L",
+      "type": "qty",
+      "required": 4
+    },
+    {
+      "id": "binder",
+      "nameAr": "مشد",
+      "nameEn": "Support binder",
+      "noteAr": "S/M/L",
+      "type": "qty",
+      "required": 2
+    },
+    {
+      "id": "burn",
+      "nameAr": "مرهم حرق",
+      "nameEn": "Burn ointment",
+      "noteAr": "ع 1",
+      "type": "qty",
+      "required": 1
+    },
+    {
+      "id": "kash",
+      "nameAr": "مرهم كش",
+      "nameEn": "Ointment",
+      "noteAr": "ع 1",
+      "type": "qty",
+      "required": 2
+    },
+    {
+      "id": "sofratulle",
+      "nameAr": "Sofratulle",
+      "nameEn": "Sofratulle dressing",
+      "noteAr": "tulle dressing",
+      "type": "qty",
+      "required": 12
+    },
+    {
+      "id": "serum",
+      "nameAr": "مصل",
+      "nameEn": "Serum",
+      "noteAr": "saline / IV",
+      "type": "qty",
+      "required": 1
+    },
+    {
+      "id": "betadine",
+      "nameAr": "بيتادين",
+      "nameEn": "Betadine",
+      "noteAr": "ع 1",
+      "type": "qty",
+      "required": 1
+    },
+    {
+      "id": "wound-tape",
+      "nameAr": "تلزيق جرح",
+      "nameEn": "Wound plaster",
+      "noteAr": "",
+      "type": "qty",
+      "required": 5
+    },
+    {
+      "id": "gauze-roll",
+      "nameAr": "رولو شاش",
+      "nameEn": "Gauze roll",
+      "noteAr": "ع 1",
+      "type": "qty",
+      "required": 10
+    },
+    {
+      "id": "elz",
+      "nameAr": "إلز",
+      "nameEn": "Elastic adhesive",
+      "noteAr": "ع 6",
+      "type": "qty",
+      "required": 6
+    },
+    {
+      "id": "hypo",
+      "nameAr": "تلزيق ضد الحساسية",
+      "nameEn": "Hypoallergenic plaster",
+      "noteAr": "",
+      "type": "qty",
+      "required": 1
+    },
+    {
+      "id": "pressure",
+      "nameAr": "ضماد ضاغط",
+      "nameEn": "Pressure dressing",
+      "noteAr": "ع 12",
+      "type": "qty",
+      "required": 1
+    },
+    {
+      "id": "ice",
+      "nameAr": "كيس ثلج",
+      "nameEn": "Ice pack",
+      "noteAr": "ع 4",
+      "type": "qty",
+      "required": 1
+    },
+    {
+      "id": "cleanisept",
+      "nameAr": "CLEANISEPT",
+      "nameEn": "CLEANISEPT change",
+      "noteAr": "كل 72 ساعة",
+      "type": "interval",
+      "intervalHours": 72,
+      "required": 1
+    }
+  ],
+  "checks": []
+}
